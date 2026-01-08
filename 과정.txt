@@ -1,0 +1,13 @@
+웹사이트를 실행하려면 터미널(PowerShell)에 npm run dev를 입력하면 됩니다.
+
+만약 이전에 발생했던 **권한 오류(Execution Policy)**가 다시 나온다면, 아래 명령어를 복사해서 입력해 주세요. 이 명령어는 현재 세션에서만 스크립트 실행 권한을 일시적으로 허용하고 개발 서버를 시작합니다.
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; npm run dev
+
+-------------------------------------------
+
+과정
+스마일 핸디맨 안틱그래비티로 만듬.컴터에 설치했고 작업폴더는 C:coding\smilehandyman
+완료후-Vercel 에 게시하는걸로 해서 이부분만 chat gpt에게 안내받는다.
+북킹은 구글켈린더 사용 테크니션이 1명이상일때 각각 다른계정으로 북킹생성해서 웹페이지에 링크 Slot A,,B... 이런식으로
+서비스 상담 챗봇은 일단 GPTs로 구현하는중 잘됨. 현제상황에선 최선. 이름:Smile Handyman Assistant
