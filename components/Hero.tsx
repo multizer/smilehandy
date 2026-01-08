@@ -20,7 +20,7 @@ const Hero = () => {
                             <Star className="w-4 h-4 fill-blue-600 text-blue-600" />
                             <span>Manhattan&apos;s Premier Home Tech Support</span>
                         </div>
-                        <div className="flex justify-center lg:justify-start mb-4">
+                        <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-4">
                             <Link href="#about" className="inline-flex items-center gap-1.5 bg-orange-100 text-orange-700 px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-orange-200 transition-colors">
                                 <span className="relative flex h-2 w-2">
                                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
@@ -28,6 +28,17 @@ const Hero = () => {
                                 </span>
                                 Community Sundays Now Active
                             </Link>
+
+                            <button
+                                onClick={() => window.dispatchEvent(new CustomEvent('open-live-chat'))}
+                                className="inline-flex items-center gap-1.5 bg-blue-100 text-blue-700 px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-blue-200 transition-colors"
+                            >
+                                <span className="relative flex h-2 w-2">
+                                    <span className="animate-pulse absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
+                                </span>
+                                AI Live Chat Support
+                            </button>
                         </div>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                             Expert Computer Support & <span className="text-blue-900">Home Services</span>

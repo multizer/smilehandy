@@ -9,6 +9,12 @@ export default function LiveChatFAB() {
 
     const togglePopup = () => setIsOpen(!isOpen);
 
+    React.useEffect(() => {
+        const handleOpen = () => setIsOpen(true);
+        window.addEventListener('open-live-chat', handleOpen);
+        return () => window.removeEventListener('open-live-chat', handleOpen);
+    }, []);
+
     return (
         <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-4">
             {isOpen && (
