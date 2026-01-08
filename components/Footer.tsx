@@ -11,7 +11,7 @@ const Footer = () => {
 
                     {/* Brand */}
                     <div className="space-y-6">
-                        <Link href="#home" className="flex items-center gap-2 group">
+                        <Link href="/" className="flex items-center gap-2 group">
                             <div className="bg-blue-600 p-2 rounded-lg group-hover:bg-blue-700 transition-colors">
                                 <MonitorCog className="text-white w-6 h-6" />
                             </div>
@@ -37,11 +37,11 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-lg mb-6">Quick Links</h3>
                         <ul className="space-y-4 text-slate-400">
-                            <li><Link href="#home" className="hover:text-orange-500 transition-colors">Home</Link></li>
-                            <li><Link href="#services" className="hover:text-orange-500 transition-colors">Services</Link></li>
-                            <li><Link href="#about" className="hover:text-orange-500 transition-colors">About Us</Link></li>
-                            <li><Link href="#faq" className="hover:text-orange-500 transition-colors">FAQ</Link></li>
-                            <li><Link href="/privacy-policy" target="_blank" className="hover:text-orange-500 transition-colors">Privacy Policy</Link></li>
+                            <li><Link href="/" className="hover:text-orange-500 transition-colors">Home</Link></li>
+                            <li><Link href="/#services" className="hover:text-orange-500 transition-colors">Services</Link></li>
+                            <li><Link href="/#about" className="hover:text-orange-500 transition-colors">About Us</Link></li>
+                            <li><Link href="/#faq" className="hover:text-orange-500 transition-colors">FAQ</Link></li>
+                            <li><Link href="/privacy-policy" className="hover:text-orange-500 transition-colors">Privacy Policy</Link></li>
                         </ul>
                     </div>
 

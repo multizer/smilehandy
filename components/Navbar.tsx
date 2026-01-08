@@ -18,10 +18,10 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "Services", href: "#services" },
-    { name: "FAQ", href: "#faq" },
-    { name: "About Us", href: "#about" },
+    { name: "Home", href: "/" },
+    { name: "Services", href: "/#services" },
+    { name: "FAQ", href: "/#faq" },
+    { name: "About Us", href: "/#about" },
   ];
 
   return (
@@ -32,7 +32,7 @@ const Navbar = () => {
         }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
-        <Link href="#home" className="flex items-center gap-2 group">
+        <Link href="/" className="flex items-center gap-2 group">
           <div className="bg-blue-600 p-2 rounded-lg group-hover:bg-blue-700 transition-colors">
             <MonitorCog className="text-white w-6 h-6" />
           </div>
