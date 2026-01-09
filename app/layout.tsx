@@ -24,6 +24,7 @@ export const metadata: Metadata = {
   description: "Manhattan's trusted tech support and handyman service. Specializing in computer repair, Wi-Fi setup, TV mounting, and IKEA assembly. Featuring 'Community Sundays'—free services for seniors and those in need.",
   keywords: [
     "Manhattan Handyman",
+    "Computer repair",
     "Computer Repair NY",
     "Tech Support Manhattan",
     "IKEA Assembly NYC",
@@ -34,7 +35,9 @@ export const metadata: Metadata = {
     "Free Handyman Manhattan",
     "Senior Tech Support NYC",
     "Volunteer Handyman Manhattan",
-    "Charity Tech Help NYC"
+    "Charity Tech Help NYC",
+    "Free Computer Repair Manhattan",
+    "Computer Repair Volunteer NYC"
   ],
   authors: [{ name: "Smile Handyman" }],
   openGraph: {
