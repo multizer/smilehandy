@@ -48,9 +48,16 @@ const FAQ = () => {
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <span className="text-orange-500 font-semibold tracking-wide uppercase text-sm">Common Questions</span>
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">Frequently Asked Questions</h2>
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 mb-4">
                         Find answers to common questions about our services and booking process.
                     </p>
+                    <button
+                        onClick={() => window.dispatchEvent(new CustomEvent('open-live-chat'))}
+                        className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors"
+                    >
+                        <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse" />
+                        Have more questions? Ask our AI Live Chat
+                    </button>
                 </div>
 
                 <div className="max-w-3xl mx-auto space-y-4">

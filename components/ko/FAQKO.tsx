@@ -48,9 +48,16 @@ const FAQKO = () => {
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <span className="text-orange-500 font-semibold tracking-wide uppercase text-sm">자주 묻는 질문</span>
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">궁금한 점을 확인해 보세요</h2>
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 mb-4">
                         서비스 및 예약 과정에 대해 가장 자주 묻는 질문들에 대한 답변입니다.
                     </p>
+                    <button
+                        onClick={() => window.dispatchEvent(new CustomEvent('open-live-chat'))}
+                        className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors"
+                    >
+                        <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse" />
+                        궁금한 점이 더 있으신가요? AI 라이브 채팅으로 바로 물어보세요
+                    </button>
                 </div>
 
                 <div className="max-w-3xl mx-auto space-y-4">

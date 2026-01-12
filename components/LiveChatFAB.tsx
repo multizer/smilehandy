@@ -56,18 +56,18 @@ export default function LiveChatFAB() {
 
             <button
                 onClick={togglePopup}
-                className={`flex items-center justify-center w-14 h-14 rounded-full shadow-lg transition-all duration-300 group ${isOpen ? 'bg-gray-700 rotate-90' : 'bg-blue-600 hover:bg-blue-700 hover:scale-110'}`}
+                className={`flex items-center justify-center gap-2 rounded-full shadow-lg transition-all duration-300 group ${isOpen
+                    ? 'w-14 h-14 bg-gray-700 rotate-90'
+                    : 'px-6 h-14 bg-blue-600 hover:bg-blue-700 hover:scale-105'}`}
                 aria-label={isOpen ? "Close Chat" : "Open Live Chat"}
             >
                 {isOpen ? (
                     <X className="w-8 h-8 text-white" />
                 ) : (
-                    <MessageCircle className="w-8 h-8 text-white" />
-                )}
-                {!isOpen && (
-                    <span className="absolute right-full mr-3 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-                        Live Chat
-                    </span>
+                    <>
+                        <MessageCircle className="w-6 h-6 text-white" />
+                        <span className="text-white font-bold text-lg">Chat</span>
+                    </>
                 )}
             </button>
         </div>
