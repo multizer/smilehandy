@@ -50,8 +50,9 @@ const HeroKO = () => {
                             전문 컴퓨터 수리 <br className="hidden lg:block" />및 <span className="text-blue-900">홈 서비스</span>
                         </h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                            맨해튼에서 가장 신뢰받는 테크 전문가입니다. 컴퓨터 수리, 스마트 홈 설정,
-                            TV 설치 및 이케아 가구 조립 등 일상생활에 필요한 모든 기술 지원을 제공합니다.
+                            업퍼웨스트사이드(UWS), 업퍼이스트사이드(UES), 첼시, 미드타운 등 맨해튼 전역에서
+                            가장 신뢰받는 테크 전문가입니다. 컴퓨터 수리, 와이파이 설정, TV 설치 및
+                            이케아 가구 조립 등 일상에 필요한 모든 기술 지원을 한국어로 편하게 받으세요.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                             <Link
@@ -93,7 +94,7 @@ const HeroKO = () => {
                         <div className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-gray-200 shadow-2xl">
                             <Image
                                 src="/home2.png"
-                                alt="Smile Handyman 메인 이미지"
+                                alt="맨해튼 컴퓨터 수리 및 뉴욕 한국인 핸디맨 서비스 - Smile Handyman"
                                 fill
                                 className="object-cover"
                                 priority

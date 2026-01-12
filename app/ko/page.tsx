@@ -47,6 +47,32 @@ export default function KoreanHome() {
                 `}
             </Script>
 
+            {/* SEO Structured Data */}
+            <Script id="json-ld-ko" type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "LocalBusiness",
+                    "name": "Smile Handyman (스마일 핸디맨)",
+                    "description": "맨해튼 전문 한국인 컴퓨터 수리 및 홈 서비스. 와이파이 설치, TV 마운팅, 이케아 조립 지원.",
+                    "url": "https://www.smilehandyman.com/ko",
+                    "telephone": "+1-212-XXX-XXXX",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Manhattan",
+                        "addressRegion": "NY",
+                        "addressCountry": "US"
+                    },
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": 40.7831,
+                        "longitude": -73.9712
+                    },
+                    "hasMap": "https://www.google.com/maps?cid=YOUR_CID_HERE",
+                    "areaServed": ["Manhattan", "Upper West Side", "Upper East Side", "Chelsea", "Midtown"],
+                    "knowsLanguage": ["Korean", "English"]
+                })}
+            </Script>
+
             <HeroKO />
             <ServicesKO />
             <FAQKO />
