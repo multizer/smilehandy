@@ -72,7 +72,7 @@ const Navbar = () => {
             <Globe className="w-4 h-4" />
             <span className={!isKO ? "text-blue-600" : ""}>EN</span>
             <span className="text-gray-300">|</span>
-            <span className={isKO ? "text-blue-600" : ""}>KO</span>
+            <span className={isKO ? "text-blue-600" : ""}>한글</span>
           </Link>
 
           <Link
@@ -90,7 +90,7 @@ const Navbar = () => {
             href={toggleLanguage()}
             className="flex items-center gap-1 text-gray-500 font-bold text-xs border rounded-full px-3 py-1"
           >
-            {isKO ? "EN" : "KO"}
+            {isKO ? "EN" : "한글"}
           </Link>
           <button
             className="p-2 text-gray-600"
