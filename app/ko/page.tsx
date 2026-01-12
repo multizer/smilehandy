@@ -3,6 +3,7 @@ import HeroKO from "@/components/ko/HeroKO";
 import ServicesKO from "@/components/ko/ServicesKO";
 import FAQKO from "@/components/ko/FAQKO";
 import AboutKO from "@/components/ko/AboutKO";
+import Script from "next/script";
 
 export const metadata: Metadata = {
     title: "Smile Handyman | 맨해튼 전문가 인공지능 컴퓨터 수리 및 홈 서비스",
@@ -32,6 +33,20 @@ export const metadata: Metadata = {
 export default function KoreanHome() {
     return (
         <main className="min-h-screen">
+            {/* Google Ads Tag (gtag.js) */}
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=AW-17812783072"
+                strategy="afterInteractive"
+            />
+            <Script id="google-ads-tag" strategy="afterInteractive">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'AW-17812783072');
+                `}
+            </Script>
+
             <HeroKO />
             <ServicesKO />
             <FAQKO />
