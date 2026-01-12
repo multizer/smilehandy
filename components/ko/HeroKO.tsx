@@ -40,8 +40,8 @@ const HeroKO = () => {
                                 AI 라이브 채팅 상담
                             </button>
                         </div>
-                        <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-gray-900 leading-tight mb-6 tracking-tight">
-                            전문 컴퓨터 수리 및 <span className="text-blue-900">홈 서비스</span>
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                            전문 컴퓨터 수리 <br className="hidden lg:block" />및 <span className="text-blue-900">홈 서비스</span>
                         </h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                             맨해튼에서 가장 신뢰받는 테크 전문가입니다. 컴퓨터 수리, 스마트 홈 설정,
