@@ -62,6 +62,9 @@ export const metadata: Metadata = {
       "ko-KR": "https://www.smilehandyman.com/ko",
     },
   },
+  verification: {
+    google: "ReTgLuAOHjkcWCYvr0gHUPtgQQW9xUgyqyoPmh7-BLY",
+  },
 };
 
 const jsonLd = {
