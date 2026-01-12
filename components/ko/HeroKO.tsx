@@ -16,9 +16,15 @@ const HeroKO = () => {
                         transition={{ duration: 0.5 }}
                         className="flex-1 text-center lg:text-left"
                     >
-                        <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium text-sm mb-6">
-                            <Star className="w-4 h-4 fill-blue-600 text-blue-600" />
-                            <span>맨해튼 최고의 홈 테크 지원 서비스</span>
+                        <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-6">
+                            <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium text-sm">
+                                <Star className="w-4 h-4 fill-blue-600 text-blue-600" />
+                                <span>맨해튼 최고의 홈 테크 지원 서비스</span>
+                            </div>
+                            <div className="inline-flex items-center gap-2 bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium text-sm">
+                                <div className="w-2 h-2 rounded-full bg-green-600 animate-pulse" />
+                                <span>한국인 직원 직접 방문</span>
+                            </div>
                         </div>
                         <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-4">
                             <Link href="#about" className="inline-flex items-center gap-1.5 bg-orange-100 text-orange-700 px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-orange-200 transition-colors">
