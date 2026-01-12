@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://www.smilehandyman.com/ko",
     },
+    verification: {
+        google: "ReTgLuAOHjkcWCYvr0gHUPtgQQW9xUgyqyoPmh7-BLY",
+    },
 };
 
 export default function KoreanHome() {
