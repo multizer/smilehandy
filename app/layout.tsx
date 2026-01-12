@@ -58,6 +58,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://www.smilehandyman.com",
+    languages: {
+      "ko-KR": "https://www.smilehandyman.com/ko",
+    },
   },
 };
 
