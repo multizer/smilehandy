@@ -7,13 +7,13 @@ const services = [
     {
         icon: <Monitor className="w-6 h-6" />,
         title: "Computer Repair & Tech",
-        description: "Troubleshooting, upgrades, and setup for PCs, Macs, and printers. Expert tech support.",
+        description: "Windows installation, migration, data recovery, backup, troubleshooting, and extensive professional services.",
         color: "bg-blue-100 text-blue-600",
     },
     {
         icon: <Wifi className="w-6 h-6" />,
         title: "Wi-Fi & Network Setup",
-        description: "Eliminating dead zones, installing mesh systems, and router configuration for fast internet.",
+        description: "Eliminating dead zones, installing mesh systems, and router configuration. Home and small-to-medium business network installation.",
         color: "bg-sky-100 text-sky-600",
     },
     {

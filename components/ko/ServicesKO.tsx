@@ -7,13 +7,13 @@ const services = [
     {
         icon: <Monitor className="w-6 h-6" />,
         title: "컴퓨터 수리 및 기술 지원",
-        description: "PC, Mac, 프린터 문제 해결, 업그레이드 및 설치. 전문가의 기술 지원을 제공합니다.",
+        description: "윈도우 설치, 마이그레이션, 데이터 복구, 백업, 트러블슈팅 등 광범위한 전문 서비스를 제공합니다.",
         color: "bg-blue-100 text-blue-600",
     },
     {
         icon: <Wifi className="w-6 h-6" />,
         title: "Wi-Fi 및 네트워크 설정",
-        description: "음영 지역 제거, 메시 시스템 설치 및 고속 인터넷을 위한 라우터 설정.",
+        description: "음영 지역 제거, 메시 시스템 설치, 라우터 설정 및 가정, 중소규모 네트워크 설치 지원.",
         color: "bg-sky-100 text-sky-600",
     },
     {
