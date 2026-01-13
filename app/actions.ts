@@ -17,7 +17,7 @@ export async function sendEmail(formData: FormData) {
     try {
         const { data, error } = await resend.emails.send({
             from: 'Smile Handyman <onboarding@resend.dev>', // Verifying domain will change this later
-            to: ['smilehandymanny@gmail.com'],
+            to: ['multizer@live.com'],
             subject: `[New Inquiry] ${name} (${phone})`,
             replyTo: email,
             html: `
