@@ -67,7 +67,7 @@ const AboutKO = () => {
                                     매주 일요일, 저소득층 주민, 어르신 및 장애인을 우선으로 <span className="font-semibold">무료 커뮤니티 서비스</span>를 제한된 인원에게 제공합니다.
                                 </p>
                                 <p className="text-gray-700 text-sm mb-4 leading-relaxed">
-                                    서비스에는 TV 설치, 단층 침대 조립, 간단한 컴퓨터 지원(Tier 1) 등이 포함됩니다. 자세한 사항이 궁금하시면 이메일 보내주세요.
+                                    서비스에는 TV 설치, 단층 침대 조립, 간단한 컴퓨터 지원(Tier 1) 등이 포함됩니다.
                                 </p>
                                 <div className="text-sm text-gray-600 bg-white p-3 rounded-lg border border-orange-100">
                                     <p className="mb-1">예약이 조기 마감될 수 있으며, 이메일을 통해 사전 일정이 확정됩니다.</p>
