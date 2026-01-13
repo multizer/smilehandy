@@ -3,6 +3,7 @@ import HeroKO from "@/components/ko/HeroKO";
 import ServicesKO from "@/components/ko/ServicesKO";
 import FAQKO from "@/components/ko/FAQKO";
 import AboutKO from "@/components/ko/AboutKO";
+import ContactFormKO from "@/components/ko/ContactFormKO";
 import Script from "next/script";
 
 export const metadata: Metadata = {
@@ -77,6 +78,7 @@ export default function KoreanHome() {
             <ServicesKO />
             <FAQKO />
             <AboutKO />
+            <ContactFormKO />
         </main>
     );
 }

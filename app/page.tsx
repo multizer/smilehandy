@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import FAQ from "@/components/FAQ";
 import About from "@/components/About";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Services />
       <FAQ />
       <About />
+      <ContactForm />
     </main>
   );
 }

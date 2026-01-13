@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LiveChatFAB from "@/components/LiveChatFAB";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -136,6 +137,7 @@ export default function RootLayout({
         {children}
         <LiveChatFAB />
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
