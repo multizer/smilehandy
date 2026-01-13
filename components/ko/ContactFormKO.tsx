@@ -59,7 +59,7 @@ const ContactFormKO = () => {
                                     </div>
                                     <div>
                                         <div className="text-sm text-blue-300">이메일 문의</div>
-                                        <div className="font-semibold">smilehandyman1000@gmail.com</div>
+                                        <div className="font-semibold">smilehandymanny@gmail.com</div>
                                     </div>
                                 </div>
                             </div>

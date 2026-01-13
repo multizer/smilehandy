@@ -72,7 +72,7 @@ const AboutKO = () => {
                                 <div className="text-sm text-gray-600 bg-white p-3 rounded-lg border border-orange-100">
                                     <p className="mb-1">예약이 조기 마감될 수 있으며, 이메일을 통해 사전 일정이 확정됩니다.</p>
                                     <div className="text-blue-600 font-medium flex items-center gap-2 mt-1">
-                                        <Mail className="w-4 h-4" /> SmileHandymanNY@gmail.com
+                                        <Mail className="w-4 h-4" /> smilehandymanny@gmail.com
                                     </div>
                                 </div>
                             </div>
