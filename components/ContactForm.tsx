@@ -84,7 +84,7 @@ const ContactForm = () => {
                                             name="name"
                                             required
                                             placeholder="John Doe"
-                                            className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all placeholder:text-gray-400"
+                                            className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all placeholder:text-gray-400 text-gray-900"
                                         />
                                     </div>
                                     <div className="space-y-2">
@@ -97,7 +97,7 @@ const ContactForm = () => {
                                             name="phone"
                                             required
                                             placeholder="000-000-0000"
-                                            className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all placeholder:text-gray-400"
+                                            className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all placeholder:text-gray-400 text-gray-900"
                                         />
                                     </div>
                                 </div>
@@ -124,7 +124,7 @@ const ContactForm = () => {
                                         required
                                         rows={4}
                                         placeholder="Describe the issue or service you need."
-                                        className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none placeholder:text-gray-400"
+                                        className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none placeholder:text-gray-400 text-gray-900"
                                     ></textarea>
                                 </div>
 
