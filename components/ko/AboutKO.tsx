@@ -22,7 +22,7 @@ const AboutKO = () => {
                             </div>
                             <div className="absolute -bottom-10 -right-10 bg-orange-500 text-white p-6 rounded-3xl shadow-lg hidden md:block">
                                 <div className="text-2xl font-bold mb-1">Smile Handyman</div>
-                                <div className="text-sm font-medium opacity-90">맨하탄 한인 핸디맨 · 가구조립 · TV 설치</div>
+                                <div className="text-sm font-medium opacity-90">맨하탄 한인 핸디맨 · 가구조립 · IT핸디맨</div>
                             </div>
                         </div>
                     </motion.div>
