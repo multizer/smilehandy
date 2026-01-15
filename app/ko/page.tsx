@@ -30,6 +30,22 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://www.smilehandyman.com/ko",
     },
+    openGraph: {
+        title: "Smile Handyman | 맨해튼 전문가 인공지능 컴퓨터 수리 및 홈 서비스",
+        description: "맨해튼의 신뢰받는 테크 지원 및 핸디맨 서비스. 컴퓨터 수리, 와이파이 설정, TV 설치, 이케아 조립 전문. 어르신과 도움이 필요한 분들을 위한 '커뮤니티 선데이' 무료 서비스 운영 중.",
+        url: "https://www.smilehandyman.com/ko",
+        siteName: "Smile Handyman",
+        images: [
+            {
+                url: "/ogimage.png",
+                width: 1200,
+                height: 630,
+                alt: "스마일 핸디맨 맨해튼",
+            },
+        ],
+        locale: "ko_KR",
+        type: "website",
+    },
     verification: {
         google: "ReTgLuAOHjkcWCYvr0gHUPtgQQW9xUgyqyoPmh7-BLY",
     },

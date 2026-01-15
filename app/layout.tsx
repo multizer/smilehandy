@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Smile Handyman",
     images: [
       {
-        url: "/og-image.png", // Recommended to have an OG image
+        url: "/ogimage.png", // Recommended to have an OG image
         width: 1200,
         height: 630,
         alt: "Smile Handyman Manhattan",
