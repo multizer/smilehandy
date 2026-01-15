@@ -19,7 +19,7 @@ const HeroKO = () => {
                         <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-6">
                             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium text-sm">
                                 <Star className="w-4 h-4 fill-blue-600 text-blue-600" />
-                                <span>맨하탄 한인 핸디맨 · Smile Handyman</span>
+                                <span>스마일 핸디맨 · Smile Handyman · 맨하탄 한인 핸디맨</span>
                             </div>
                             <div className="inline-flex items-center gap-2 bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium text-sm">
                                 <div className="w-2 h-2 rounded-full bg-green-600 animate-pulse" />
@@ -52,14 +52,14 @@ const HeroKO = () => {
                         </div>
 
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                            맨하탄 핸디맨 전문 서비스 <br className="hidden lg:block" />한 번에 해결해 드립니다
+                            스마일 핸디맨, 맨하탄 핸디맨 전문 서비스 <br className="hidden lg:block" />한 번에 해결해 드립니다
                         </h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                             UWS·UES·맨하탄 전역 가정과 오피스에서 맨하탄 핸디맨, TV 설치, Wi‑Fi·스마트홈,{" "}
                             <strong className="text-blue-900">맨하탄 가구조립</strong>까지 책임지고 처리합니다.
                             그동안 검색이 어려웠던{" "}
                             <strong className="text-blue-900">
-                                “맨하탄 핸디맨”, “맨하탄 가구조립”, “핸디맨 자원봉사”, “컴퓨터수리 자원봉사”
+                                “스마일 핸디맨”, “맨하탄 핸디맨”, “맨하탄 가구조립”, “핸디맨 자원봉사”, “컴퓨터수리 자원봉사”
                             </strong>
                             를 명확히 표기했으니 필요한 서비스라면 바로 연락 주세요.
                         </p>
@@ -69,14 +69,14 @@ const HeroKO = () => {
                                 href="#services"
                                 className="w-full sm:w-auto px-8 py-4 bg-blue-900 text-white rounded-xl font-bold hover:bg-blue-800 transition-all shadow-lg shadow-blue-900/25 flex items-center justify-center gap-2 group"
                             >
-                                서비스 한눈에 보기
+                                스마일 핸디맨 서비스 보기
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform pointer-events-none" />
                             </Link>
                             <Link
                                 href="#faq"
                                 className="w-full sm:w-auto px-8 py-4 bg-white text-gray-700 border border-gray-200 rounded-xl font-bold hover:bg-gray-50 transition-all flex items-center justify-center"
                             >
-                                자주 묻는 질문
+                                스마일 핸디맨 FAQ
                             </Link>
                         </div>
 

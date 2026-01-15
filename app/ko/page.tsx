@@ -7,10 +7,12 @@ import ContactFormKO from "@/components/ko/ContactFormKO";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-    title: "Smile Handyman | 맨하탄 핸디맨 · 맨하탄 가구조립 전문",
+    title: "Smile Handyman | 스마일 핸디맨 · 맨하탄 핸디맨 · 맨하탄 가구조립",
     description:
-        "맨하탄 핸디맨, 맨하탄 가구조립, TV 설치, Wi‑Fi/스마트홈 세팅, 컴퓨터수리 자원봉사, 핸디맨 자원봉사를 한 번에 해결합니다. UWS·UES·맨해튼 전역 당일 방문과 투명한 견적을 제공합니다.",
+        "스마일 핸디맨(Smile Handyman)은 맨하탄 핸디맨, 맨하탄 가구조립, TV 설치, Wi‑Fi/스마트홈 세팅, 컴퓨터수리 자원봉사, 핸디맨 자원봉사를 한 번에 해결합니다. UWS·UES·맨해튼 전역 당일 방문과 투명한 견적을 제공합니다.",
     keywords: [
+        "스마일 핸디맨",
+        "스마일핸디맨",
         "맨하탄 핸디맨",
         "맨하탄핸디맨",
         "맨해튼 핸디맨",
@@ -52,8 +54,8 @@ export default function KoreanHome() {
                 {JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "LocalBusiness",
-                    "name": "Smile Handyman (맨하탄 핸디맨)",
-                    "description": "맨하탄 핸디맨, 맨하탄 가구조립, TV 설치, Wi‑Fi/스마트홈 세팅, 컴퓨터수리 자원봉사, 핸디맨 자원봉사를 제공하는 한인 핸디맨 서비스입니다.",
+                    "name": "Smile Handyman | 스마일 핸디맨 (맨하탄 핸디맨)",
+                    "description": "스마일 핸디맨은 맨하탄 핸디맨, 맨하탄 가구조립, TV 설치, Wi‑Fi/스마트홈 세팅, 컴퓨터수리 자원봉사, 핸디맨 자원봉사를 제공하는 한인 핸디맨 서비스입니다.",
                     "url": "https://www.smilehandyman.com/ko",
                     "telephone": "+1-212-XXX-XXXX",
                     "address": {
