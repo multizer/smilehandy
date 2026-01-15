@@ -6,44 +6,37 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
     {
-        question: "당일 예약이 가능한가요? 서비스 지역은 어디인가요?",
-        answer:
-            "네, 맨하탄(UWS·UES 포함) 전역은 당일 또는 주말 예약이 가능합니다. 일정이 꽉 찬 경우 가까운 가능한 시간대를 바로 안내드리고 이동 동선을 최적화해 드립니다.",
+        question: "예약 당일에 바로 서비스를 받을 수 있나요?",
+        answer: "당일 서비스는 보장해 드리기 어렵습니다. 작업마다 필요한 도구, 준비 과정, 혹은 현장 방문이 선행되어야 할 수도 있기 때문입니다. 하지만 예약 후 최대한 빠르게 연락드려 상황을 파악하고 최적의 일정을 조율해 드립니다.\n걱정하지 마세요. 귀하의 가정에 딱 맞는 계획을 함께 세워 드립니다."
     },
     {
-        question: "비용은 어떻게 정해지나요?",
-        answer:
-            "작업 종류, 벽체 타입(건식/콘크리트/벽돌), 브라켓·부품 사용 여부에 따라 산정합니다. 현장 확인 후 투명하게 견적을 공유하고, 추가 비용은 사전 동의 없이 발생하지 않습니다.",
+        question: "사무실이나 사업자 고객도 서비스를 이용할 수 있나요?",
+        answer: "네, 가능합니다. 가정, 소규모 사무실 및 비즈니스 고객 모두에게 지원을 제공합니다.\n\n비즈니스 고객의 경우, 단일 문제나 개별 장치에 대해 정찰제 요금이 적용됩니다.\n공유 네트워크, 서버 또는 여러 시스템이 연결된 복합적인 문제는 별도의 견적이 필요할 수 있습니다.\n단일 문제인지 불분명한 경우, 무료 현장 방문을 통해 견적을 확인해 드릴 수 있습니다.\n가정과 비즈니스 모두에게 투명한 가격과 신뢰할 수 있는 서비스를 약속합니다."
     },
     {
-        question: "맨하탄 가구조립을 맡길 수 있나요? 큰 가구도 가능한가요?",
-        answer:
-            "네, 맨하탄 가구조립(침대, 서랍장, 옷장, 책상 등)과 부분 수리까지 진행합니다. 무거운 가구 이동 시 바닥 보호와 수평 잡기까지 완료해 드립니다.",
+        question: "기본 정찰제($140)에는 어떤 작업들이 포함되나요?",
+        answer: "Wi-Fi 문제, TV 설치, 프린터 설정, 스마트 기기 등 대부분의 일반적인 가정 및 소규모 사업장 테크 문제는 $140 정찰제(Tier 1/2 기준)가 적용됩니다.\n정찰제는 방문당 하나의 독립된 작업 항목에 적용되며, 작업 시간에 관계없이 동일합니다.\n컴퓨터 서비스의 경우, 하나의 독립된 문제(예: 특정 프로그램 오류나 개별 장치 문제)에 적용됩니다.\n사무실 환경에서 공유 네트워크나 서버, 여러 장치가 얽힌 문제는 별도 견적이 필요할 수 있습니다.\n일부 간단한 가사 작업은 동일 가격에 여러 항목이 포함될 수 있습니다:\n• LED 조명 기구 최대 2개 설치\n• 의자 조립 최대 4개\n• 또는 이와 유사한 규모의 작업\n작업이 여러 개이거나 복잡한 네트워크 문제인 경우, 사전에 내용을 검토하여 정확한 포함 범위와 가격을 확인해 드립니다.\n\n문제가 정확히 무엇인지 모를 경우, 작업 시작 전 무료 현장 견적을 요청하실 수 있습니다."
     },
     {
-        question: "핸디맨 자원봉사나 컴퓨터수리 자원봉사는 어떻게 신청하나요?",
-        answer:
-            "커뮤니티 선데이 프로그램으로 진행합니다. 긴급하지 않은 소규모 작업과 컴퓨터수리 자원봉사를 우선 배정하며, 희망 날짜와 필요한 작업을 이메일(smilehandymanny@gmail.com)로 보내주시면 일정에 맞춰 연락드립니다.",
+        question: "취소하거나 일정을 변경하고 싶으면 어떻게 하나요?",
+        answer: "괜찮습니다. 일정은 언제든지 바뀔 수 있죠.\n방문 전이라면 언제든지 수수료 없이 취소나 변경이 가능합니다.\n문자나 문의 양식을 통해 미리 알려주시기만 하면 됩니다.\n예약부터 변경까지, 모든 과정을 간편하게 도와드립니다."
     },
     {
-        question: "벽걸이 TV 설치는 어떤 브라켓과 벽에서도 가능한가요?",
-        answer:
-            "드라이월, 콘크리트, 벽돌 모두 가능합니다. 브라켓이 없으면 추천 규격을 안내드리며, 배선 정리와 수평 체크, 장비 테스트까지 마친 후 인수인계합니다.",
+        question: "예약할 때 문제를 자세히 적어야 하나요?",
+        answer: "네, 부탁드립니다! 상황을 미리 자세히 알수록 더 정확한 준비가 가능합니다. 필요한 경우, 특히 원인을 잘 모르실 때는 무료 현장 점검을 먼저 제안해 드릴 수 있습니다. 이를 통해 현실적인 해결 계획과 견적을 안내해 드립니다."
     },
     {
-        question: "Wi‑Fi나 스마트홈 세팅 후 문제가 생기면 A/S가 되나요?",
-        answer:
-            "작업 후 7일 이내 동일 이슈는 무상 점검을 제공합니다. 네트워크 환경 변화나 신규 기기 추가가 있을 경우에는 추가 방문이 필요할 수 있습니다.",
+        question: "숨겨진 추가 비용이 있나요?",
+        answer: "절대 없습니다. 저희 가격은 항상 투명하고 미리 안내해 드립니다. 예상치 못한 상황이 발생하더라도, 항상 먼저 설명해 드리고 고객님의 동의를 얻은 후 진행합니다."
     },
     {
-        question: "예약을 변경하거나 취소하려면 어떻게 하나요?",
-        answer:
-            "최소 24시간 전에 알려주시면 수수료 없이 변경·취소 가능합니다. 당일 변경이 필요한 경우 가능한 가장 빠른 다른 슬롯을 찾아 드립니다.",
+        question: "문제를 해결하지 못해도 비용을 내야 하나요?",
+        answer: "아니요. 문제를 해결하지 못하면 어떤 비용도 청구하지 않습니다. 저희는 오직 완료되고 성공적인 수리나 설치에 대해서만 비용을 받습니다.\n\n간단합니다 — 결과가 없으면 비용도 없습니다."
     },
     {
-        question: "빌딩에서 COI(보험증명서)를 요구하는데 제공되나요?",
-        answer: "네, 라이선스와 보험을 보유하고 있으며 COI 발급이 가능합니다. 빌딩 양식을 미리 보내주시면 방문 전까지 준비해 드립니다.",
-    },
+        question: "저희 집에 누가 오게 되나요?",
+        answer: "신뢰할 수 있고 유니폼을 착용한 Smile Handyman 팀원이 방문합니다. 모든 팀원은 신원 조회를 거치고 전문 교육을 받았습니다. 방문 전, 팀원의 이름, 사진, 간단한 프로필이 담긴 문자를 보내드려 어떤 분이 오시는지 확인하실 수 있도록 합니다.\n\n현지 전문가. 검증된 인력. 친절함. 시작부터 끝까지 안심하고 서비스를 받으실 수 있도록 최선을 다합니다."
+    }
 ];
 
 const FAQKO = () => {
@@ -54,23 +47,25 @@ const FAQKO = () => {
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <span className="text-orange-500 font-semibold tracking-wide uppercase text-sm">자주 묻는 질문</span>
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">예약·비용·자원봉사 안내</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">궁금한 점을 확인해 보세요</h2>
                     <p className="text-gray-600 mb-4">
-                        TV 설치, 맨하탄 가구조립, 핸디맨 자원봉사/컴퓨터수리 자원봉사 등 문의가 많은 내용을 정리했습니다. 더 필요한
-                        정보가 있다면 채팅으로 바로 문의 주세요.
+                        서비스 및 예약 과정에 대해 가장 자주 묻는 질문들에 대한 답변입니다.
                     </p>
                     <button
-                        onClick={() => window.dispatchEvent(new CustomEvent("open-live-chat"))}
+                        onClick={() => window.dispatchEvent(new CustomEvent('open-live-chat'))}
                         className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors"
                     >
                         <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse" />
-                        바로 상담하기 (AI 실시간 채팅)
+                        궁금한 점이 더 있으신가요? AI 라이브 채팅으로 바로 물어보세요
                     </button>
                 </div>
 
                 <div className="max-w-3xl mx-auto space-y-4">
                     {faqs.map((faq, index) => (
-                        <div key={index} className="bg-white rounded-2xl border border-gray-100 overflow-hidden">
+                        <div
+                            key={index}
+                            className="bg-white rounded-2xl border border-gray-100 overflow-hidden"
+                        >
                             <button
                                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                                 className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors"
@@ -89,7 +84,9 @@ const FAQKO = () => {
                                         exit={{ height: 0, opacity: 0 }}
                                         transition={{ duration: 0.2 }}
                                     >
-                                        <div className="px-6 pb-6 text-gray-600 leading-relaxed whitespace-pre-line">{faq.answer}</div>
+                                        <div className="px-6 pb-6 text-gray-600 leading-relaxed whitespace-pre-line">
+                                            {faq.answer}
+                                        </div>
                                     </motion.div>
                                 )}
                             </AnimatePresence>
