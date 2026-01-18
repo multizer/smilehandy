@@ -42,3 +42,5 @@ next-env.d.ts
 
 # personal notes
 과정.txt
+memo.private
+*.private
