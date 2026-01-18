@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Heart, Mail } from "lucide-react";
+import { Heart, Mail, Facebook } from "lucide-react";
 import Image from "next/image";
 
 const AboutKO = () => {
