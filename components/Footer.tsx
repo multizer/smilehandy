@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { MonitorCog, Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { MonitorCog, Facebook, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
     return (
@@ -21,14 +21,8 @@ const Footer = () => {
                             Your trusted partner for home repairs, tech support, and installations in Manhattan. Fast, friendly, and reliable.
                         </p>
                         <div className="flex gap-4">
-                            <a href="https://www.facebook.com/smilehandyman" target="_blank" rel="noopener noreferrer" className="bg-slate-800 p-2.5 rounded-full hover:bg-orange-500 transition-colors">
-                                <Facebook className="w-5 h-5" />
-                            </a>
-                            <a href="#" className="bg-slate-800 p-2.5 rounded-full hover:bg-orange-500 transition-colors">
-                                <Twitter className="w-5 h-5" />
-                            </a>
-                            <a href="#" className="bg-slate-800 p-2.5 rounded-full hover:bg-orange-500 transition-colors">
-                                <Instagram className="w-5 h-5" />
+                            <a href="https://www.facebook.com/smilehandyman" target="_blank" rel="noopener noreferrer" className="bg-slate-800 p-3.5 rounded-full hover:bg-blue-600 transition-all hover:scale-110">
+                                <Facebook className="w-7 h-7" />
                             </a>
                         </div>
                     </div>

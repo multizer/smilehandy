@@ -76,8 +76,8 @@ const About = () => {
                                         <div className="text-blue-600 font-medium flex items-center gap-2">
                                             <Mail className="w-4 h-4" /> SmileHandymanNY@gmail.com
                                         </div>
-                                        <a href="https://www.facebook.com/supportnewyork" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium flex items-center gap-2 hover:underline">
-                                            <Facebook className="w-4 h-4" /> Visit our SNS for updates
+                                        <a href="https://www.facebook.com/supportnewyork" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium flex items-center gap-2 hover:underline group">
+                                            <Facebook className="w-6 h-6 group-hover:scale-110 transition-transform" /> Visit our SNS for updates
                                         </a>
                                     </div>
                                 </div>
