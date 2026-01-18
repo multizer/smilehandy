@@ -70,8 +70,13 @@ const AboutKO = () => {
                                 </p>
                                 <div className="text-sm text-gray-600 bg-white p-3 rounded-lg border border-orange-100">
                                     <p className="mb-1">자원봉사 문의</p>
-                                    <div className="text-blue-600 font-medium flex items-center gap-2 mt-1">
-                                        <Mail className="w-4 h-4" /> smilehandymanny@gmail.com
+                                    <div className="flex flex-col gap-2 mt-1">
+                                        <div className="text-blue-600 font-medium flex items-center gap-2">
+                                            <Mail className="w-4 h-4" /> smilehandymanny@gmail.com
+                                        </div>
+                                        <a href="https://www.facebook.com/supportnewyork" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium flex items-center gap-2 hover:underline">
+                                            <Facebook className="w-4 h-4" /> 페이스북에서 활동 소식을 확인하세요
+                                        </a>
                                     </div>
                                 </div>
                             </div>

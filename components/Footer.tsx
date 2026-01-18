@@ -21,7 +21,7 @@ const Footer = () => {
                             Your trusted partner for home repairs, tech support, and installations in Manhattan. Fast, friendly, and reliable.
                         </p>
                         <div className="flex gap-4">
-                            <a href="#" className="bg-slate-800 p-2.5 rounded-full hover:bg-orange-500 transition-colors">
+                            <a href="https://www.facebook.com/smilehandyman" target="_blank" rel="noopener noreferrer" className="bg-slate-800 p-2.5 rounded-full hover:bg-orange-500 transition-colors">
                                 <Facebook className="w-5 h-5" />
                             </a>
                             <a href="#" className="bg-slate-800 p-2.5 rounded-full hover:bg-orange-500 transition-colors">
