@@ -38,7 +38,7 @@ const AboutKO = () => {
 
                         <div className="space-y-6 mt-2">
                             <div>
-                                <h2 className="text-3xl font-bold text-gray-900 mb-3">맨하탄에서 믿을 수 있는 한인 핸디맨</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-3">믿을 수 있는 맨하탄 한인 IT 핸디맨</h2>
                                 <p className="text-gray-600 leading-relaxed">
                                     Smile Handyman은 맨하탄(UWS·UES)에서 TV 설치, Wi‑Fi/스마트홈 세팅, 맨하탄 가구조립, 작은 수리까지
                                     투명한 견적과 꼼꼼한 마감으로 제공하는 핸디맨 서비스입니다. 방문 전 사전 상담으로 필요한 브라켓과 부품을
@@ -47,10 +47,13 @@ const AboutKO = () => {
                             </div>
 
                             <div>
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">안전하고 깔끔한 작업</h3>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">꼼꼼하고 책임감 있는 서비스</h3>
                                 <p className="text-gray-600 leading-relaxed">
-                                    라이선스와 보험을 갖춘 팀이 안전 차단 후 작업하며, 수평·전원·네트워크 테스트까지 끝낸 뒤 공간을 정리하고
-                                    인수인계합니다. 빌딩 COI가 필요하면 미리 발급해 드립니다.
+                                    사전 상담과 방문 확인으로 시간 낭비 없이 준비된 상태로 방문합니다.
+                                    TV·가구·조명 설치 및 모든 서비스 완료 후 전선 정리, 안전 확인을 거쳐
+                                    테스트까지 완료한 후 사용법을 설명드립니다.
+
+                                    작업 후 청소까지 책임지기 때문에 고객님은 편하게 결과물만 확인하시면 됩니다.
                                 </p>
                             </div>
 
