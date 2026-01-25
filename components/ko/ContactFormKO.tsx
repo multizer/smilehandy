@@ -66,7 +66,7 @@ const ContactFormKO = () => {
 
                             <div className="mt-12 p-6 bg-blue-800/30 rounded-2xl border border-blue-700/50">
                                 <p className="text-sm text-blue-100 italic">
-                                    "맨해튼의 모든 테크 문제, 스마일 핸디맨이 친절하게 해결해 드립니다."
+                                    "맨하탄의 모든 테크 문제, 스마일 핸디맨이 친절하게 해결해 드립니다."
                                 </p>
                             </div>
                         </div>

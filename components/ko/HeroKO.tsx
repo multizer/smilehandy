@@ -19,7 +19,7 @@ const HeroKO = () => {
                         <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-6">
                             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium text-sm">
                                 <Star className="w-4 h-4 fill-blue-600 text-blue-600" />
-                                <span>맨해튼 최고의 홈 테크 지원 서비스</span>
+                                <span>맨하탄 최고의 홈 테크 지원 서비스</span>
                             </div>
                             <div className="inline-flex items-center gap-2 bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium text-sm">
                                 <div className="w-2 h-2 rounded-full bg-green-600 animate-pulse" />
@@ -94,7 +94,7 @@ const HeroKO = () => {
                         <div className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-gray-200 shadow-2xl">
                             <Image
                                 src="/home2.png"
-                                alt="맨해튼 컴퓨터 수리 및 뉴욕 한국인 핸디맨 서비스 - Smile Handyman"
+                                alt="맨하탄 컴퓨터 수리 및 뉴욕 한국인 핸디맨 서비스 - Smile Handyman"
                                 fill
                                 className="object-cover"
                                 priority
