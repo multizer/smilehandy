@@ -40,6 +40,11 @@ export const metadata: Metadata = {
     ],
     alternates: {
         canonical: "https://www.smilehandyman.com/ko",
+        languages: {
+            "en-US": "https://www.smilehandyman.com",
+            "ko-KR": "https://www.smilehandyman.com/ko",
+            "x-default": "https://www.smilehandyman.com",
+        },
     },
     openGraph: {
         title: "Smile Handyman | 맨하탄 전문가 인공지능 컴퓨터 수리 및 홈 서비스",
@@ -84,7 +89,6 @@ export default function KoreanHome() {
                     "name": "Smile Handyman | 스마일 핸디맨 (맨하탄 핸디맨)",
                     "description": "스마일 핸디맨은 맨하탄 핸디맨, 맨하탄 가구조립, TV 설치, Wi‑Fi/스마트홈 세팅, 컴퓨터수리 자원봉사, 핸디맨 자원봉사를 제공하는 한인 핸디맨 서비스입니다.",
                     "url": "https://www.smilehandyman.com/ko",
-                    "telephone": "+1-212-XXX-XXXX",
                     "address": {
                         "@type": "PostalAddress",
                         "addressLocality": "Manhattan",
