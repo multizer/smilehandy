@@ -77,7 +77,6 @@ const jsonLd = {
   "image": "https://www.smilehandyman.com/logo.png", // Assuming logo path
   "@id": "https://www.smilehandyman.com",
   "url": "https://www.smilehandyman.com",
-  "telephone": "", // Add telephone if available
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "",

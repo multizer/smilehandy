@@ -100,7 +100,6 @@ export default function KoreanHome() {
                         "latitude": 40.7831,
                         "longitude": -73.9712,
                     },
-                    "hasMap": "https://www.google.com/maps?cid=YOUR_CID_HERE",
                     "areaServed": ["Manhattan", "Upper West Side", "Upper East Side", "Chelsea", "Midtown"],
                     "knowsLanguage": ["Korean", "English"],
                 })}
