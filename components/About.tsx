@@ -19,7 +19,7 @@ const About = () => {
                         <div className="relative">
                             <div className="aspect-[4/3] bg-gray-200 rounded-3xl overflow-hidden relative shadow-xl">
                                 <Image
-                                    src="/aboutus1.png"
+                                    src="/aboutus2.png"
                                     alt="About Smile Handyman"
                                     fill
                                     className="object-cover"

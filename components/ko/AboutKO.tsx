@@ -18,7 +18,7 @@ const AboutKO = () => {
                     >
                         <div className="relative">
                             <div className="aspect-[4/3] bg-gray-200 rounded-3xl overflow-hidden relative shadow-xl">
-                                <Image src="/aboutus1.png" alt="Smile Handyman 작업 현장" fill className="object-cover" />
+                                <Image src="/aboutus2.png" alt="Smile Handyman 작업 현장" fill className="object-cover" />
                             </div>
                             <div className="absolute -bottom-10 -right-10 bg-orange-500 text-white p-6 rounded-3xl shadow-lg hidden md:block">
                                 <div className="text-2xl font-bold mb-1">Smile Handyman</div>
