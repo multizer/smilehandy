@@ -7,36 +7,18 @@ import ContactFormKO from "@/components/ko/ContactFormKO";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-    title: "Smile Handyman | 스마일 핸디맨 · 맨하탄 핸디맨 · 맨하탄 가구조립",
+    title: {
+        absolute: "스마일 핸디맨 | 맨하탄 컴퓨터수리 · 핸디맨 · 가구조립"
+    },
     description:
-        "스마일 핸디맨(Smile Handyman)은 맨하탄 핸디맨, 맨하탄 가구조립, TV 설치, Wi‑Fi/스마트홈 세팅, 컴퓨터수리 자원봉사, 핸디맨 자원봉사를 한 번에 해결합니다. UWS·UES·맨하탄 전역 당일 방문과 투명한 견적을 제공합니다.",
+        "스마일 핸디맨은 맨하탄 지역 컴퓨터 수리, 가구 조립, TV 설치 등 IT와 홈 서비스를 제공하는 전문 핸디맨입니다.",
     keywords: [
         "스마일 핸디맨",
-        "스마일핸디맨",
         "맨하탄 핸디맨",
-        "맨하탄핸디맨",
-        "맨하탄 핸디맨",
-        "맨하탄 한인 가구조립",
-        "맨하탄한인 가구조립",
-        "맨하탄한인 TV벽설치",
-        "맨하탄한인 Wi-Fi 설치",
-        "맨하탄한인 스마트홈 설치",
-        "한인핸디맨 자원봉사",
-        "한인컴퓨터수리 자원봉사",
-        "맨하탄한인 컴퓨터수리",
-        "맨하탄한인 카메라설치",
-        "맨하탄한인 비디오벨 설치",
-        "맨하탄 한국어 가구조립",
-        "맨하탄한국어 가구조립",
-        "맨하탄한국어 TV벽설치",
-        "맨하탄한국어 Wi-Fi 설치",
-        "맨하탄한국어 스마트홈 설치",
-        "한국어핸디맨 자원봉사",
-        "한국어컴퓨터수리 자원봉사",
-        "맨하탄한국어 컴퓨터수리",
-        "맨하탄한국어 카메라설치",
-        "맨하탄한국어 비디오벨 설치",
-        "맨하탄 한인 핸디맨",
+        "맨하탄 가구조립",
+        "맨하탄 컴퓨터수리",
+        "IT 핸디맨",
+        "자원봉사 핸디맨"
     ],
     alternates: {
         canonical: "https://www.smilehandyman.com/ko",
@@ -47,8 +29,8 @@ export const metadata: Metadata = {
         },
     },
     openGraph: {
-        title: "Smile Handyman | 맨하탄 IT 핸디맨, 컴퓨터출장수리",
-        description: "맨하탄의 신뢰받는 테크 지원 및 핸디맨 서비스. 컴퓨터 수리, 와이파이 설정, TV 설치, 이케아 조립 전문. 어르신과 도움이 필요한 분들을 위한 '커뮤니티 선데이' 무료 서비스 운영 중.",
+        title: "스마일 핸디맨 | 맨하탄 컴퓨터수리 · 핸디맨 · 가구조립",
+        description: "맨하탄의 신뢰받는 IT 지원 및 핸디맨 서비스. 컴퓨터 수리, TV 설치, 이케아 조립 전문.",
         url: "https://www.smilehandyman.com/ko",
         siteName: "Smile Handyman",
         images: [
@@ -86,8 +68,8 @@ export default function KoreanHome() {
                 {JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "LocalBusiness",
-                    "name": "Smile Handyman | 스마일 핸디맨 (맨하탄 핸디맨)",
-                    "description": "스마일 핸디맨은 맨하탄 핸디맨, 맨하탄 가구조립, TV 설치, Wi‑Fi/스마트홈 세팅, 컴퓨터수리 자원봉사, 핸디맨 자원봉사를 제공하는 한인 핸디맨 서비스입니다.",
+                    "name": "스마일 핸디맨 (Smile Handyman)",
+                    "description": "맨하탄 컴퓨터 수리, 가구 조립, TV 설치 등 IT와 홈 서비스를 제공하는 전문 핸디맨 서비스입니다.",
                     "url": "https://www.smilehandyman.com/ko",
                     "address": {
                         "@type": "PostalAddress",

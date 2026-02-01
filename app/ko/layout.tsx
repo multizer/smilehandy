@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.smilehandyman.com"),
   title: {
-    default: "Smile Handyman | 스마일 핸디맨 · 맨하탄 핸디맨",
+    default: "스마일 핸디맨",
     template: "%s | 스마일 핸디맨"
   },
   alternates: {
