@@ -47,11 +47,11 @@ const HeroKO = () => {
                             </button>
                         </div>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                            전문 컴퓨터 수리 <br className="hidden lg:block" />및 <span className="text-blue-900">홈 서비스</span>
+                            맨하탄 컴퓨터 수리 <br className="hidden lg:block" />및 <span className="text-blue-900">홈 서비스 핸디맨</span>
                         </h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                            맨하탄 컴퓨터수리 전문가입니다. 맨하탄 고객을 위해 홈서비스도 포함합니다.
-                            홈서비스에는 가구조립, LED조명설치, CCTV 등을 비롯한 각종 집안수리 서비스를 하고 있으며
+                            맨하탄 컴퓨터수리 당일 핸디맨 서비스등 폭넓은 홈서비를 제공합니다.
+                            스마일 핸디맨은 가구조립, LED조명설치, CCTV 등을 비롯한 각종 집안수리 서비스를 하고 있으며
                             유명한 맨하탄 핸디맨입니다.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
