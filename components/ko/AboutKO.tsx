@@ -63,13 +63,12 @@ const AboutKO = () => {
                                     <h3 className="text-xl font-bold text-gray-900">커뮤니티 선데이 (자원봉사)</h3>
                                 </div>
                                 <p className="text-gray-700 text-sm mb-3 leading-relaxed">
-                                    긴급하지 않은 소규모 작업을 위해 주말에 <span className="font-semibold">핸디맨 자원봉사</span>와{" "}
+                                    긴급하지 않은 소규모 작업을 위해 일요일에 <span className="font-semibold">핸디맨 무료서비스</span>와{" "}
                                     <span className="font-semibold">컴퓨터수리 자원봉사</span>를 진행합니다. 도움이 필요한 이웃에게 우선 배정하며,
                                     가능한 범위에서 재료비만 요청드립니다.
                                 </p>
                                 <p className="text-gray-700 text-sm mb-4 leading-relaxed">
-                                    원하는 날짜와 필요 작업을 이메일로 보내주시면 가능한 일정에 배정해 드립니다. 맨하탄 내 어르신·학생·싱글맘
-                                    가구를 우선 지원합니다.
+                                    원하는 날짜와 필요 작업을 이메일로 보내주시면 가능한 일정에 배정해 드립니다.
                                 </p>
                                 <div className="text-sm text-gray-600 bg-white p-3 rounded-lg border border-orange-100">
                                     <p className="mb-1">자원봉사 문의</p>
