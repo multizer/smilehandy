@@ -63,21 +63,23 @@ const About = () => {
                                     <Heart className="w-5 h-5 text-orange-500 fill-orange-500" />
                                     <h3 className="text-xl font-bold text-gray-900">Community Sundays</h3>
                                 </div>
-                                <p className="text-gray-700 text-sm mb-3 leading-relaxed">
-                                    Every Sunday, we offer a limited number of <span className="font-semibold">free community services</span>,
-                                    with priority given to low-income residents, seniors, and people with disabilities.
-                                </p>
-                                <p className="text-gray-700 text-sm mb-4 leading-relaxed">
-                                    Services include TV mounting, single-level bed assembly, and simple computer help (Tier 1).
-                                </p>
-                                <div className="text-sm text-gray-600 bg-white p-3 rounded-lg border border-orange-100">
-                                    <p className="mb-1">Availability is limited, and scheduling is confirmed in advance by email.</p>
-                                    <div className="flex flex-col gap-2 mt-1">
-                                        <div className="text-blue-600 font-medium flex items-center gap-2">
-                                            <Mail className="w-4 h-4" /> SmileHandymanNY@gmail.com
-                                        </div>
-                                        <a href="https://www.facebook.com/supportnewyork" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium flex items-center gap-2 hover:underline group">
-                                            <Facebook className="w-6 h-6 group-hover:scale-110 transition-transform" /> Visit our SNS for updates
+                                <div className="text-gray-700 text-sm space-y-4 leading-relaxed">
+                                    <p>
+                                        Community Sundays is a personal community project started by Kenny, owner of Smile Handyman.
+                                        It&apos;s a simple effort to give back through hands-on help for local residents in need.
+                                    </p>
+                                    <p>
+                                        This initiative is separate from our regular paid services and may evolve into a nonprofit in the future.
+                                    </p>
+                                    <div className="pt-2">
+                                        <p className="font-medium text-gray-900 mb-2">Learn more at:</p>
+                                        <a
+                                            href="https://www.supportnewyork.org/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:underline bg-white px-4 py-2 rounded-xl border border-orange-100 shadow-sm transition-all hover:shadow-md"
+                                        >
+                                            👉 https://www.supportnewyork.org/
                                         </a>
                                     </div>
                                 </div>

@@ -60,24 +60,25 @@ const AboutKO = () => {
                             <div className="bg-orange-50 border border-orange-100 p-6 rounded-2xl">
                                 <div className="flex items-center gap-2 mb-2">
                                     <Heart className="w-5 h-5 text-orange-500 fill-orange-500" />
-                                    <h3 className="text-xl font-bold text-gray-900">커뮤니티 선데이 (자원봉사)</h3>
+                                    <h3 className="text-xl font-bold text-gray-900">커뮤니티 선데이 (Community Sundays)</h3>
                                 </div>
-                                <p className="text-gray-700 text-sm mb-3 leading-relaxed">
-                                    긴급하지 않은 소규모 작업을 위해 일요일에 <span className="font-semibold">핸디맨 무료서비스</span>와{" "}
-                                    <span className="font-semibold">컴퓨터수리 자원봉사</span>를 진행합니다. 도움이 필요한 이웃에게 우선 배정하며,
-                                    가능한 범위에서 재료비만 요청드립니다.
-                                </p>
-                                <p className="text-gray-700 text-sm mb-4 leading-relaxed">
-                                    원하는 날짜와 필요 작업을 이메일로 보내주시면 가능한 일정에 배정해 드립니다.
-                                </p>
-                                <div className="text-sm text-gray-600 bg-white p-3 rounded-lg border border-orange-100">
-                                    <p className="mb-1">자원봉사 문의</p>
-                                    <div className="flex flex-col gap-2 mt-1">
-                                        <div className="text-blue-600 font-medium flex items-center gap-2">
-                                            <Mail className="w-4 h-4" /> smilehandymanny@gmail.com
-                                        </div>
-                                        <a href="https://www.facebook.com/supportnewyork" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium flex items-center gap-2 hover:underline group">
-                                            <Facebook className="w-6 h-6 group-hover:scale-110 transition-transform" /> 페이스북에서 활동 소식을 확인하세요
+                                <div className="text-gray-700 text-sm space-y-4 leading-relaxed">
+                                    <p>
+                                        커뮤니티 선데이는 Smile Handyman의 대표 케니(Kenny)가 시작한 개인 커뮤니티 프로젝트입니다.
+                                        도움이 필요한 지역 주민들에게 실질적인 도움을 드림으로써 지역 사회에 환원하고자 하는 작은 노력입니다.
+                                    </p>
+                                    <p>
+                                        이 활동은 정규 유료 서비스와는 별개로 운영되며, 향후 비영리 단체로 발전할 계획입니다.
+                                    </p>
+                                    <div className="pt-2">
+                                        <p className="font-medium text-gray-900 mb-2">더 알아보기:</p>
+                                        <a
+                                            href="https://www.supportnewyork.org/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:underline bg-white px-4 py-2 rounded-xl border border-orange-100 shadow-sm transition-all hover:shadow-md"
+                                        >
+                                            👉 https://www.supportnewyork.org/
                                         </a>
                                     </div>
                                 </div>
