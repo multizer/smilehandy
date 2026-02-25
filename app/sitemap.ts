@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://www.smilehandyman.com'
-    const lastModified = new Date()
+    const lastModified = new Date("2025-01-01")
 
     return [
         {

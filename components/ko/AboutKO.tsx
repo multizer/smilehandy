@@ -65,10 +65,14 @@ const AboutKO = () => {
                                 <div className="text-gray-700 text-sm space-y-4 leading-relaxed">
                                     <p>
                                         커뮤니티 선데이는 Smile Handyman의 대표 케니(Kenny)가 시작한 개인 커뮤니티 프로젝트입니다.
-                                        도움이 필요한 지역 주민들에게 실질적인 도움을 드림으로써 지역 사회에 환원하고자 하는 작은 노력입니다.
+                                        매주 일요일, 도움이 필요한 지역 주민들에게{" "}
+                                        <span className="font-semibold">핸디맨 무료서비스</span>와{" "}
+                                        <span className="font-semibold">컴퓨터수리 자원봉사</span>를 제공하며 지역에 도움이 되고자 하는 작은 노력입니다.
                                     </p>
                                     <p>
-                                        이 활동은 정규 유료 서비스와는 별개로 운영되며, 향후 비영리 단체로 발전할 계획입니다.
+                                        어르신, 장애인, 저소득 가정 등 도움이 필요한 이웃을 위한{" "}
+                                        <span className="font-semibold">자원봉사 핸디맨</span> 프로그램으로,
+                                        이 활동은 정규 유료 서비스와는 별개로 운영되며 향후 비영리 단체로 발전할 계획입니다.
                                     </p>
                                     <div className="pt-2">
                                         <p className="font-medium text-gray-900 mb-2">더 알아보기:</p>

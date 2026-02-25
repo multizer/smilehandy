@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LiveChatFAB from "@/components/LiveChatFAB";
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Smile Handyman",
     images: [
       {
-        url: "/ogimage.png", // Recommended to have an OG image
+        url: "/ogimage.png",
         width: 1200,
         height: 630,
         alt: "Smile Handyman Manhattan",
@@ -73,16 +73,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": "https://www.smilehandyman.com/#business",
   "name": "Smile Handyman",
-  "image": "https://www.smilehandyman.com/logo.png", // Assuming logo path
-  "@id": "https://www.smilehandyman.com",
+  "image": "https://www.smilehandyman.com/ogimage.png",
   "url": "https://www.smilehandyman.com",
+  "telephone": "+1-917-397-3145",
+  "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "",
     "addressLocality": "Manhattan",
     "addressRegion": "NY",
-    "postalCode": "",
     "addressCountry": "US"
   },
   "geo": {
@@ -94,14 +94,7 @@ const jsonLd = {
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       "opens": "09:00",
       "closes": "20:00"
     },
@@ -114,11 +107,12 @@ const jsonLd = {
     }
   ],
   "sameAs": [
-    "https://github.com/multizer/smilehandy"
+    "https://www.facebook.com/supportnewyork",
+    "https://www.supportnewyork.org"
   ]
 };
 
-export default function RootLayout({
+export default function EnglishLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
