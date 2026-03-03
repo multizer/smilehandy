@@ -38,11 +38,10 @@ const AboutKO = () => {
 
                         <div className="space-y-6 mt-2">
                             <div>
-                                <h2 className="text-3xl font-bold text-gray-900 mb-3">믿을 수 있는 맨하탄 한인 IT 핸디맨</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-3">믿을 수 있는 맨하탄 핸디맨 컴퓨터수리</h2>
                                 <p className="text-gray-600 leading-relaxed">
-                                    Smile Handyman은 맨하탄(UWS·UES)에서 TV 설치, Wi‑Fi/스마트홈 세팅, 맨하탄 가구조립, 작은 수리까지
-                                    투명한 견적과 꼼꼼한 마감으로 제공하는 핸디맨 서비스입니다. 방문 전 사전 상담으로 필요한 브라켓과 부품을
-                                    준비해 시간을 절약합니다.
+                                    Smile Handyman은 맨하탄 핸디맨, 컴퓨터수리, Wi‑Fi/스마트홈 세팅, 맨하탄 가구조립, 작은 집수리까지
+                                    투명한 견적과 꼼꼼한 마감으로 제공하는 서비스입니다.
                                 </p>
                             </div>
 
