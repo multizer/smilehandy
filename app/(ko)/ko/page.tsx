@@ -8,7 +8,7 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
     title: {
-        absolute: "스마일 핸디맨 | 맨하탄 컴퓨터수리 · 핸디맨 · 가구조립"
+        absolute: "맨하탄 핸디맨 · 컴퓨터수리 · 가구조립 - Smile Handyman"
     },
     description:
         "스마일 핸디맨은 맨하탄 지역 컴퓨터 수리, 가구 조립, TV 설치 등 IT와 홈 서비스를 제공하는 전문 핸디맨입니다.",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         },
     },
     openGraph: {
-        title: "스마일 핸디맨 | 맨하탄 컴퓨터수리 · 핸디맨 · 가구조립",
+        title: "맨하탄 핸디맨 · 컴퓨터수리 · 가구조립 - Smile Handyman",
         description: "맨하탄의 신뢰받는 IT 지원 및 핸디맨 서비스. 컴퓨터 수리, TV 설치, 이케아 조립 전문.",
         url: "https://www.smilehandyman.com/ko",
         siteName: "Smile Handyman",
