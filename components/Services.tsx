@@ -51,7 +51,7 @@ const Services = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">Our Professional Services</h2>
                     <p className="text-gray-600">
                         We provide a wide range of handyman and tech services to keep your home running smoothly,
-                        including specialized support for seniors and our unique <span className="text-orange-600 font-medium">Community Sundays</span> initiative.
+                        including specialized support for seniors and customized solutions for New Yorkers of all ages.
                     </p>
                 </div>
 

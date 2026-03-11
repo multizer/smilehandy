@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         "맨하탄 가구조립",
         "맨하탄 컴퓨터수리",
         "IT 핸디맨",
-        "자원봉사 핸디맨"
+        // "자원봉사 핸디맨"
     ],
     alternates: {
         canonical: "https://www.smilehandyman.com/ko",
@@ -88,10 +88,12 @@ export default function KoreanHome() {
                     },
                     "areaServed": ["Manhattan", "Upper West Side", "Upper East Side", "Chelsea", "Midtown"],
                     "knowsLanguage": ["Korean", "English"],
+                    /*
                     "sameAs": [
                         "https://www.facebook.com/supportnewyork",
                         "https://www.supportnewyork.org"
                     ],
+                    */
                 })}
             </Script>
 

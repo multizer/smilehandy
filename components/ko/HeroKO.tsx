@@ -27,6 +27,7 @@ const HeroKO = () => {
                             </div>
                         </div>
                         <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-4">
+                            {/* 커뮤니티 선데이 링크 - 필요시 주석 해제하여 사용
                             <Link href="#about" className="inline-flex items-center gap-1.5 bg-orange-100 text-orange-700 px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-orange-200 transition-colors">
                                 <span className="relative flex h-2 w-2">
                                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
@@ -34,6 +35,15 @@ const HeroKO = () => {
                                 </span>
                                 커뮤니티 선데이 진행 중
                             </Link>
+                            */}
+
+                            <div className="inline-flex items-center gap-1.5 bg-sky-100 text-sky-700 px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-wider">
+                                <span className="relative flex h-2 w-2">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
+                                </span>
+                                실시간 예약 가능
+                            </div>
 
                             <button
                                 onClick={() => window.dispatchEvent(new CustomEvent('open-live-chat'))}

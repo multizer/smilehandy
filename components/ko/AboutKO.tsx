@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Heart, Mail, Facebook } from "lucide-react";
+import { Heart, Mail, Facebook, ShieldCheck } from "lucide-react";
 import Image from "next/image";
 
 const AboutKO = () => {
@@ -56,7 +56,8 @@ const AboutKO = () => {
                                 </p>
                             </div>
 
-                            <div className="bg-orange-50 border border-orange-100 p-6 rounded-2xl">
+                            {/* 커뮤니티 선데이 섹션 - 필요시 주석 해제하여 사용
+                             <div className="bg-orange-50 border border-orange-100 p-6 rounded-2xl">
                                 <div className="flex items-center gap-2 mb-2">
                                     <Heart className="w-5 h-5 text-orange-500 fill-orange-500" />
                                     <h3 className="text-xl font-bold text-gray-900">커뮤니티 선데이 (Community Sundays)</h3>
@@ -84,6 +85,30 @@ const AboutKO = () => {
                                             👉 https://www.supportnewyork.org/
                                         </a>
                                     </div>
+                                </div>
+                            </div> 
+                            */}
+
+                            <div className="bg-blue-50 border border-blue-100 p-6 rounded-2xl">
+                                <div className="flex items-center gap-2 mb-3">
+                                    <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
+                                        <ShieldCheck className="w-5 h-5 text-blue-600" />
+                                    </div>
+                                    <h3 className="text-xl font-bold text-gray-900">스마일 서비스 약속</h3>
+                                </div>
+                                <div className="text-gray-700 text-sm space-y-3 leading-relaxed">
+                                    <p className="flex items-start gap-2">
+                                        <span className="text-blue-600 font-bold mt-1">✓</span>
+                                        <span><span className="font-semibold text-gray-900">No Fix, No Fee:</span> 문제를 해결하지 못하면 어떤 비용도 청구하지 않습니다.</span>
+                                    </p>
+                                    <p className="flex items-start gap-2">
+                                        <span className="text-blue-600 font-bold mt-1">✓</span>
+                                        <span><span className="font-semibold text-gray-900">투명한 정찰제:</span> 숨겨진 비용 없이 미리 안내된 합리적인 가격으로 서비스합니다.</span>
+                                    </p>
+                                    <p className="flex items-start gap-2">
+                                        <span className="text-blue-600 font-bold mt-1">✓</span>
+                                        <span><span className="font-semibold text-gray-900">꼼꼼한 마무리:</span> 작업 후 청소는 물론, 향후 관리 방법까지 친절히 안내해 드립니다.</span>
+                                    </p>
                                 </div>
                             </div>
                         </div>

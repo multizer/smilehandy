@@ -21,6 +21,7 @@ const Hero = () => {
                             <span>Manhattan&apos;s Premier Home Tech Support</span>
                         </div>
                         <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-4">
+                            {/* Community Sundays Link - Hidden for now
                             <Link href="#about" className="inline-flex items-center gap-1.5 bg-orange-100 text-orange-700 px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-orange-200 transition-colors">
                                 <span className="relative flex h-2 w-2">
                                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
@@ -28,6 +29,15 @@ const Hero = () => {
                                 </span>
                                 Community Sundays Now Active
                             </Link>
+                            */}
+
+                            <div className="inline-flex items-center gap-1.5 bg-sky-100 text-sky-700 px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-wider">
+                                <span className="relative flex h-2 w-2">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
+                                </span>
+                                Bookings Open Now
+                            </div>
 
                             <button
                                 onClick={() => window.dispatchEvent(new CustomEvent('open-live-chat'))}

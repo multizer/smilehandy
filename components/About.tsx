@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Heart, Mail, Facebook } from "lucide-react";
+import { Heart, Mail, Facebook, ShieldCheck } from "lucide-react";
 import Image from "next/image";
 
 const About = () => {
@@ -58,6 +58,7 @@ const About = () => {
                                 </p>
                             </div>
 
+                            {/* Community Sundays Section - Hidden for now, easy to re-enable
                             <div className="bg-orange-50 border border-orange-100 p-6 rounded-2xl">
                                 <div className="flex items-center gap-2 mb-2">
                                     <Heart className="w-5 h-5 text-orange-500 fill-orange-500" />
@@ -82,6 +83,30 @@ const About = () => {
                                             👉 https://www.supportnewyork.org/
                                         </a>
                                     </div>
+                                </div>
+                            </div>
+                            */}
+
+                            <div className="bg-blue-50 border border-blue-100 p-6 rounded-2xl">
+                                <div className="flex items-center gap-2 mb-3">
+                                    <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
+                                        <ShieldCheck className="w-5 h-5 text-blue-600" />
+                                    </div>
+                                    <h3 className="text-xl font-bold text-gray-900">Our Service Guarantee</h3>
+                                </div>
+                                <div className="text-gray-700 text-sm space-y-3 leading-relaxed">
+                                    <p className="flex items-start gap-2">
+                                        <span className="text-blue-600 font-bold mt-1">✓</span>
+                                        <span><span className="font-semibold text-gray-900">No Fix, No Fee:</span> If we cannot solve your problem, you won't pay a dime.</span>
+                                    </p>
+                                    <p className="flex items-start gap-2">
+                                        <span className="text-blue-600 font-bold mt-1">✓</span>
+                                        <span><span className="font-semibold text-gray-900">Transparent Pricing:</span> We offer flat rates with no hidden fees or surprises.</span>
+                                    </p>
+                                    <p className="flex items-start gap-2">
+                                        <span className="text-blue-600 font-bold mt-1">✓</span>
+                                        <span><span className="font-semibold text-gray-900">Peace of Mind:</span> We ensure everything is tested, cleaned, and simplified before we leave.</span>
+                                    </p>
                                 </div>
                             </div>
                         </div>

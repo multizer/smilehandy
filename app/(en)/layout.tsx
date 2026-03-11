@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     default: "Smile Handyman | Expert Computer Support & Home Services in Manhattan",
     template: "%s | Smile Handyman"
   },
-  description: "Manhattan's trusted tech support and handyman service. Specializing in computer repair, Wi-Fi setup, TV mounting, and IKEA assembly. Featuring 'Community Sundays'—free services for seniors and those in need.",
+  description: "Manhattan's trusted tech support and handyman service. Specializing in computer repair, Wi-Fi setup, TV mounting, and IKEA assembly.",
   keywords: [
     "Manhattan Handyman",
     "Computer repair",
@@ -32,18 +32,12 @@ export const metadata: Metadata = {
     "TV Mounting Service",
     "Smart Home Setup",
     "Wi-Fi Fixing NYC",
-    "Community Sundays",
-    "Free Handyman Manhattan",
-    "Senior Tech Support NYC",
-    "Volunteer Handyman Manhattan",
-    "Charity Tech Help NYC",
-    "Free Computer Repair Manhattan",
-    "Computer Repair Volunteer NYC"
+    "Senior Tech Support NYC"
   ],
   authors: [{ name: "Smile Handyman" }],
   openGraph: {
     title: "Smile Handyman | Expert Computer Support & Home Services in Manhattan",
-    description: "Your friendly local tech expert. Serving Manhattan with expert computer repair, furniture assembly, and our weekly 'Community Sundays' program.",
+    description: "Your friendly local tech expert. Serving Manhattan with expert computer repair, furniture assembly, and smart home setup.",
     url: "https://www.smilehandyman.com",
     siteName: "Smile Handyman",
     images: [
@@ -90,26 +84,15 @@ const jsonLd = {
     "latitude": 40.7831,
     "longitude": -73.9712
   },
-  "description": "Expert Computer Support & Home Services in Manhattan. Specialized in Computer Repair, TV Mounting, and Community Sundays.",
+  "description": "Expert Computer Support & Home Services in Manhattan. Specialized in Computer Repair, TV Mounting, and Hardware Setup.",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       "opens": "09:00",
       "closes": "20:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Sunday",
-      "opens": "09:00",
-      "closes": "13:00",
-      "name": "Community Sundays"
     }
   ],
-  "sameAs": [
-    "https://www.facebook.com/supportnewyork",
-    "https://www.supportnewyork.org"
-  ]
 };
 
 export default function EnglishLayout({
