@@ -60,7 +60,7 @@ const HeroKO = () => {
                             맨하탄 핸디맨 <br className="hidden lg:block" /><span className="text-blue-900">가구조립 서비스</span>
                         </h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                            맨하탄 핸디맨 서비스 는 크고 작은 홈서비스 그리고 스마트 시스템을 설치하는 소문난 업체입니다. 가구조립, LED조명, 운동기구 조립
+                            맨하탄 핸디맨 서비스 는 크고 작은 홈서비스 그리고 스마트 시스템을 설치 등 Home Maintenance & Tech Support 하는 소문난 업체입니다. <br />가구조립, LED조명, 운동기구 조립
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                             <Link

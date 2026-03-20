@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         absolute: "맨하탄 핸디맨 | 가구조립"
     },
     description:
-        "저희는 맨하탄 핸디맨으로 최고의 서비스 만족을 목표로 합니다. 가구조립, 홈캠, 스마트 시스템 등을 서비스하고 있습니다.",
+        "저희는 맨하탄 핸디맨으로 최고의 서비스 만족을 목표로 합니다. 가구조립, 스마트 시스템 설치 등 Home Maintenance & Tech Support를 제공하고 있습니다.",
     keywords: [
         "맨하탄 핸디맨",
         "맨하탄 한인 핸디맨",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "맨하탄 핸디맨 | 가구조립",
-        description: "맨하탄의 신뢰받는 한인 핸디맨. 가구조립, 컴퓨터 수리, TV 설치, Wi-Fi 설정 전문.",
+        description: "맨하탄의 신뢰받는 한인 핸디맨. 가구조립, IT 지원, 스마트 시스템 설치 등 Home Maintenance & Tech Support 전문.",
         url: "https://www.smilehandyman.com/ko",
         siteName: "Smile Handyman",
         images: [
@@ -74,7 +74,7 @@ export default function KoreanHome() {
                     "url": "https://www.smilehandyman.com/ko",
                     "telephone": "+1-917-397-3145",
                     "priceRange": "$$",
-                    "description": "맨하탄의 신뢰받는 한인 핸디맨. 가구조립, 컴퓨터 수리, TV 설치, Wi-Fi 설정 등 IT와 홈 서비스를 제공합니다.",
+                    "description": "맨하탄의 신뢰받는 한인 핸디맨. 가구조립, IT 지원, 스마트 시스템 설치 등 Home Maintenance & Tech Support를 제공합니다.",
                     "address": {
                         "@type": "PostalAddress",
                         "addressLocality": "Manhattan",
