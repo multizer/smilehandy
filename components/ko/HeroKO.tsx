@@ -11,7 +11,7 @@ const HeroKO = () => {
             <div className="container mx-auto px-4 md:px-6">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                     <motion.div
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={{ opacity: 1, y: 0 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
                         className="flex-1 text-center lg:text-left"
@@ -57,12 +57,10 @@ const HeroKO = () => {
                             </button>
                         </div>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                            맨하탄 컴퓨터 수리 <br className="hidden lg:block" />및 <span className="text-blue-900">홈 서비스 핸디맨</span>
+                            맨하탄 핸디맨 <br className="hidden lg:block" /><span className="text-blue-900">집수리 서비스</span>
                         </h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                            맨하탄 컴퓨터수리 당일 핸디맨 서비스등 폭넓은 홈서비를 제공합니다.
-                            스마일 핸디맨은 가구조립, LED조명설치, CCTV 등을 비롯한 각종 집안수리 서비스를 하고 있으며
-                            유명한 맨하탄 핸디맨입니다.
+                            맨하탄 핸디맨 서비스, 집수리와 스마트 시스템을 설치하는 소문난 업체입니다. 스마일 핸디맨은 가구조립, LED조명, 스마트 시스템, 전기 관련, 벽 수리(패치) 서비스를 제공합니다.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                             <Link
@@ -103,8 +101,8 @@ const HeroKO = () => {
                     >
                         <div className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-gray-200 shadow-2xl">
                             <Image
-                                src="/home2.png"
-                                alt="맨하탄 컴퓨터 수리 및 뉴욕 한국인 핸디맨 서비스 - Smile Handyman"
+                                src="/manhattan-handyman.png"
+                                alt="맨하탄 핸디맨 집수리 서비스 - 스마일 핸디맨"
                                 fill
                                 className="object-cover"
                                 priority

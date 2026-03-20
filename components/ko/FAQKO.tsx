@@ -47,7 +47,7 @@ const FAQKO = () => {
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <span className="text-orange-500 font-semibold tracking-wide uppercase text-sm">자주 묻는 질문</span>
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">궁금한 점을 확인해 보세요</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">스마일 핸디맨의 궁금한 점을 확인해 보세요</h2>
                     <p className="text-gray-600 mb-4">
                         서비스 및 예약 과정에 대해 가장 자주 묻는 질문들에 대한 답변입니다.
                     </p>

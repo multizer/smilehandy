@@ -3,7 +3,17 @@
     "allow": [
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nRemove redundant text from Korean Community Sundays section\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(npm run dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(cmd /c \"taskkill /F /PID 14100\")",
+      "Bash(cat \"C:/coding/smilehandyman/app/\\(en\\)/layout.tsx\")",
+      "Bash(cat \"C:/coding/smilehandyman/app/\\(en\\)/page.tsx\")",
+      "Bash(cat \"C:/coding/smilehandyman/app/\\(ko\\)/layout.tsx\")",
+      "Bash(cat \"C:/coding/smilehandyman/app/\\(en\\)/privacy-policy/page.tsx\")",
+      "mcp__Claude_Preview__preview_start"
     ]
   }
 }

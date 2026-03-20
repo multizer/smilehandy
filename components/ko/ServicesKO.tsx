@@ -48,7 +48,7 @@ const ServicesKO = () => {
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <span className="text-orange-500 font-semibold tracking-wide uppercase text-sm">서비스 종류</span>
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">전문가의 고품격 서비스</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">맨하탄 핸디맨 서비스</h2>
                     <p className="text-gray-600">
                         귀하의 가정을 원활하게 유지하기 위한 폭넓은 핸디맨 및 테크 서비스를 제공합니다.
                         어르신들을 위한 특별 지원과 더불어 모든 연령대의 뉴요커를 위한 맞춤형 서비스를 제공합니다.

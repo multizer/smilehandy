@@ -8,17 +8,17 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
     title: {
-        absolute: "맨하탄 핸디맨 · 컴퓨터수리 · 가구조립 - Smile Handyman"
+        absolute: "맨하탄 핸디맨 | 집수리"
     },
     description:
-        "스마일 핸디맨은 맨하탄 지역 컴퓨터 수리, 가구 조립, TV 설치 등 IT와 홈 서비스를 제공하는 전문 핸디맨입니다.",
+        "저희는 맨하탄 핸디맨으로 최고의 서비스 만족을 목표로 합니다. 집수리, 홈캠, 스마트 시스템 등을 서비스하고 있습니다.",
     keywords: [
-        "스마일 핸디맨",
         "맨하탄 핸디맨",
+        "맨하탄 한인 핸디맨",
         "맨하탄 가구조립",
+        "스마일 핸디맨",
         "맨하탄 컴퓨터수리",
         "IT 핸디맨",
-        // "자원봉사 핸디맨"
     ],
     alternates: {
         canonical: "https://www.smilehandyman.com/ko",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
         },
     },
     openGraph: {
-        title: "맨하탄 핸디맨 · 컴퓨터수리 · 가구조립 - Smile Handyman",
-        description: "맨하탄의 신뢰받는 IT 지원 및 핸디맨 서비스. 컴퓨터 수리, TV 설치, 이케아 조립 전문.",
+        title: "맨하탄 핸디맨 | 집수리",
+        description: "맨하탄의 신뢰받는 한인 핸디맨. 가구조립, 컴퓨터 수리, TV 설치, Wi-Fi 설정 전문.",
         url: "https://www.smilehandyman.com/ko",
         siteName: "Smile Handyman",
         images: [
@@ -74,7 +74,7 @@ export default function KoreanHome() {
                     "url": "https://www.smilehandyman.com/ko",
                     "telephone": "+1-917-397-3145",
                     "priceRange": "$$",
-                    "description": "맨하탄 컴퓨터 수리, 가구 조립, TV 설치 등 IT와 홈 서비스를 제공하는 전문 핸디맨 서비스입니다.",
+                    "description": "맨하탄의 신뢰받는 한인 핸디맨. 가구조립, 컴퓨터 수리, TV 설치, Wi-Fi 설정 등 IT와 홈 서비스를 제공합니다.",
                     "address": {
                         "@type": "PostalAddress",
                         "addressLocality": "Manhattan",
@@ -88,12 +88,6 @@ export default function KoreanHome() {
                     },
                     "areaServed": ["Manhattan", "Upper West Side", "Upper East Side", "Chelsea", "Midtown"],
                     "knowsLanguage": ["Korean", "English"],
-                    /*
-                    "sameAs": [
-                        "https://www.facebook.com/supportnewyork",
-                        "https://www.supportnewyork.org"
-                    ],
-                    */
                 })}
             </Script>
 

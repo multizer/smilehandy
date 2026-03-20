@@ -18,7 +18,7 @@ const AboutKO = () => {
                     >
                         <div className="relative">
                             <div className="aspect-[4/3] bg-gray-200 rounded-3xl overflow-hidden relative shadow-xl">
-                                <Image src="/aboutus2.png" alt="Smile Handyman 작업 현장" fill className="object-cover" />
+                                <Image src="/manhattan-handyman-about.png" alt="맨하탄 핸디맨 서비스 작업 현장 - 스마일 핸디맨" fill className="object-cover" />
                             </div>
                             <div className="absolute -bottom-10 -right-10 bg-orange-500 text-white p-6 rounded-3xl shadow-lg hidden md:block">
                                 <div className="text-2xl font-bold mb-1">Smile Handyman</div>
@@ -38,7 +38,7 @@ const AboutKO = () => {
 
                         <div className="space-y-6 mt-2">
                             <div>
-                                <h2 className="text-3xl font-bold text-gray-900 mb-3">믿을 수 있는 맨하탄 핸디맨 컴퓨터수리</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-3">믿을 수 있는 맨하탄 핸디맨 컴퓨터수리 각종 집수리</h2>
                                 <p className="text-gray-600 leading-relaxed">
                                     Smile Handyman은 맨하탄 핸디맨, 컴퓨터수리, Wi‑Fi/스마트홈 세팅, 맨하탄 가구조립, 작은 집수리까지
                                     투명한 견적과 꼼꼼한 마감으로 제공하는 서비스입니다.
