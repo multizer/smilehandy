@@ -7,7 +7,7 @@ const services = [
     {
         icon: <Monitor className="w-6 h-6" />,
         title: "컴퓨터 수리 및 기술 지원",
-        description: "윈도우 설치, 마이그레이션, 데이터 복구, 백업, 트러블슈팅 등 광범위한 전문 서비스를 제공합니다.",
+        description: "컴퓨터 수리 및 설치, 시니어,장애인 기술 도우미",
         color: "bg-blue-100 text-blue-600",
     },
     {
@@ -50,8 +50,8 @@ const ServicesKO = () => {
                     <span className="text-orange-500 font-semibold tracking-wide uppercase text-sm">서비스 종류</span>
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4">맨하탄 핸디맨 서비스</h2>
                     <p className="text-gray-600">
-                        귀하의 가정을 원활하게 유지하기 위한 폭넓은 핸디맨 및 테크 서비스를 제공합니다.
-                        어르신들을 위한 특별 지원과 더불어 모든 연령대의 뉴요커를 위한 맞춤형 서비스를 제공합니다.
+                        가정이나 사무실을 원활하게 유지하기 위한 폭넓은 핸디맨 및 테크 서비스를 제공합니다.
+                        어르신들과 장애인을 위한 특별 지원 Tech Assistance 더불어 모든 연령대의 뉴요커를 위한 맞춤형 서비스를 제공합니다.
                     </p>
                 </div>
 

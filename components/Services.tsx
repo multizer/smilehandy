@@ -7,7 +7,7 @@ const services = [
     {
         icon: <Monitor className="w-6 h-6" />,
         title: "Computer Repair & Tech",
-        description: "Windows installation, migration, data recovery, backup, troubleshooting, and extensive professional services.",
+        description: "Computer repair & installation, technical assistance for seniors and people with disabilities.",
         color: "bg-blue-100 text-blue-600",
     },
     {
