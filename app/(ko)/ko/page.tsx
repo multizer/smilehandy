@@ -8,10 +8,10 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
     title: {
-        absolute: "맨하탄 핸디맨 | 집수리"
+        absolute: "맨하탄 핸디맨 | 가구조립"
     },
     description:
-        "저희는 맨하탄 핸디맨으로 최고의 서비스 만족을 목표로 합니다. 집수리, 홈캠, 스마트 시스템 등을 서비스하고 있습니다.",
+        "저희는 맨하탄 핸디맨으로 최고의 서비스 만족을 목표로 합니다. 가구조립, 홈캠, 스마트 시스템 등을 서비스하고 있습니다.",
     keywords: [
         "맨하탄 핸디맨",
         "맨하탄 한인 핸디맨",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         },
     },
     openGraph: {
-        title: "맨하탄 핸디맨 | 집수리",
+        title: "맨하탄 핸디맨 | 가구조립",
         description: "맨하탄의 신뢰받는 한인 핸디맨. 가구조립, 컴퓨터 수리, TV 설치, Wi-Fi 설정 전문.",
         url: "https://www.smilehandyman.com/ko",
         siteName: "Smile Handyman",

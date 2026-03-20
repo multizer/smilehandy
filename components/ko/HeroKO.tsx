@@ -57,10 +57,10 @@ const HeroKO = () => {
                             </button>
                         </div>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                            맨하탄 핸디맨 <br className="hidden lg:block" /><span className="text-blue-900">집수리 서비스</span>
+                            맨하탄 핸디맨 <br className="hidden lg:block" /><span className="text-blue-900">가구조립 서비스</span>
                         </h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                            맨하탄 핸디맨 서비스, 집수리와 스마트 시스템을 설치하는 소문난 업체입니다. 스마일 핸디맨은 가구조립, LED조명, 스마트 시스템, 전기 관련, 벽 수리(패치) 서비스를 제공합니다.
+                            맨하탄 핸디맨 서비스 는 크고 작은 홈서비스 그리고 스마트 시스템을 설치하는 소문난 업체입니다. 가구조립, LED조명, 운동기구 조립
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                             <Link
@@ -102,7 +102,7 @@ const HeroKO = () => {
                         <div className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-gray-200 shadow-2xl">
                             <Image
                                 src="/manhattan-handyman.png"
-                                alt="맨하탄 핸디맨 집수리 서비스 - 스마일 핸디맨"
+                                alt="맨하탄 핸디맨 가구조립 서비스 - 스마일 핸디맨"
                                 fill
                                 className="object-cover"
                                 priority

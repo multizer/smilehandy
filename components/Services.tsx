@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Tv, Wifi, Hammer, Monitor, Zap, Home } from "lucide-react";
+import { Dumbbell, Wifi, Hammer, Monitor, Zap, Home } from "lucide-react";
 
 const services = [
     {
@@ -17,9 +17,9 @@ const services = [
         color: "bg-sky-100 text-sky-600",
     },
     {
-        icon: <Tv className="w-6 h-6" />,
-        title: "TV Mounting",
-        description: "Secure mounting for TVs of all sizes. Wire concealment options available.",
+        icon: <Dumbbell className="w-6 h-6" />,
+        title: "Exercise Equipment Assembly",
+        description: "Professional assembly for all types of indoor exercise equipment.",
         color: "bg-purple-100 text-purple-600",
     },
     {

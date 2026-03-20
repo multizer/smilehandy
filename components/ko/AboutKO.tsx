@@ -38,9 +38,9 @@ const AboutKO = () => {
 
                         <div className="space-y-6 mt-2">
                             <div>
-                                <h2 className="text-3xl font-bold text-gray-900 mb-3">믿을 수 있는 맨하탄 핸디맨 컴퓨터수리 각종 집수리</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-3">믿을 수 있는 맨하탄 핸디맨 컴퓨터수리 각종 가구조립</h2>
                                 <p className="text-gray-600 leading-relaxed">
-                                    Smile Handyman은 맨하탄 핸디맨, 컴퓨터수리, Wi‑Fi/스마트홈 세팅, 맨하탄 가구조립, 작은 집수리까지
+                                    Smile Handyman은 맨하탄 핸디맨, 컴퓨터수리, Wi‑Fi/스마트홈 세팅, 맨하탄 가구조립, 작은 홈서비스까지
                                     투명한 견적과 꼼꼼한 마감으로 제공하는 서비스입니다.
                                 </p>
                             </div>

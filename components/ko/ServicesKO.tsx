@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Tv, Wifi, Hammer, Monitor, Zap, Home } from "lucide-react";
+import { Dumbbell, Wifi, Hammer, Monitor, Zap, Home } from "lucide-react";
 
 const services = [
     {
@@ -17,9 +17,9 @@ const services = [
         color: "bg-sky-100 text-sky-600",
     },
     {
-        icon: <Tv className="w-6 h-6" />,
-        title: "TV 벽걸이 설치",
-        description: "모든 크기의 TV 안전 설치. 전선 정리 및 숨김 옵션 선택 가능.",
+        icon: <Dumbbell className="w-6 h-6" />,
+        title: "운동기구 설치",
+        description: "각종 실내 운동기구 설치",
         color: "bg-purple-100 text-purple-600",
     },
     {
