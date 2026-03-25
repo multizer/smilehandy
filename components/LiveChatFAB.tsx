@@ -8,8 +8,8 @@ export default function LiveChatFAB() {
     const chatOrigin =
         process.env.NODE_ENV === 'development'
             ? 'http://localhost:3000'
-            : (process.env.NEXT_PUBLIC_CHATBOT_URL ?? 'https://chatbot-smilehandyman.vercel.app');
-    const chatSrc = `${chatOrigin.replace(/\/$/, '')}/?autoOpen=true&hideControl=true`;
+            : (process.env.NEXT_PUBLIC_CHATBOT_URL ?? 'https://smilechatbot-delta.vercel.app');
+    const chatSrc = `${chatOrigin.replace(/\/$/, '')}/embed?autoOpen=true&hideControl=true`;
 
     const togglePopup = () => setIsOpen(!isOpen);
 
