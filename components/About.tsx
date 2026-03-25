@@ -97,7 +97,7 @@ const About = () => {
                                 <div className="text-gray-700 text-sm space-y-3 leading-relaxed">
                                     <p className="flex items-start gap-2">
                                         <span className="text-blue-600 font-bold mt-1">✓</span>
-                                        <span><span className="font-semibold text-gray-900">No Fix, No Fee:</span> If we cannot solve your problem, you won't pay a dime.</span>
+                                        <span><span className="font-semibold text-gray-900">No Fix, No Fee:</span> If we cannot solve your problem, you won&apos;t pay a dime.</span>
                                     </p>
                                     <p className="flex items-start gap-2">
                                         <span className="text-blue-600 font-bold mt-1">✓</span>

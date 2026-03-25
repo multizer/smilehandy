@@ -39,7 +39,7 @@ const ContactForm = () => {
                             <span className="text-orange-400 font-semibold tracking-wide uppercase text-sm">Contact Us</span>
                             <h2 className="text-3xl font-bold mt-2 mb-6">Have Questions?</h2>
                             <p className="text-blue-100 mb-10 leading-relaxed">
-                                Fill out the form below for bookings or quotes. We'll get back to you within 24 hours.
+                                Fill out the form below for bookings or quotes. We&apos;ll get back to you within 24 hours.
                             </p>
 
                             <div className="space-y-6">
@@ -65,7 +65,7 @@ const ContactForm = () => {
 
                             <div className="mt-12 p-6 bg-blue-800/30 rounded-2xl border border-blue-700/50">
                                 <p className="text-sm text-blue-100 italic">
-                                    "Your friendly tech expert in Manhattan. Professional service, guaranteed."
+                                    &ldquo;Your friendly tech expert in Manhattan. Professional service, guaranteed.&rdquo;
                                 </p>
                             </div>
                         </div>

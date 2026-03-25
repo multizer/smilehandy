@@ -5,6 +5,11 @@ import { MessageCircle, X } from 'lucide-react';
 
 export default function LiveChatFAB() {
     const [isOpen, setIsOpen] = useState(false);
+    const chatOrigin =
+        process.env.NODE_ENV === 'development'
+            ? 'http://localhost:3000'
+            : (process.env.NEXT_PUBLIC_CHATBOT_URL ?? 'https://chatbot-smilehandyman.vercel.app');
+    const chatSrc = `${chatOrigin.replace(/\/$/, '')}/?autoOpen=true&hideControl=true`;
 
     const togglePopup = () => setIsOpen(!isOpen);
 
@@ -31,7 +36,7 @@ export default function LiveChatFAB() {
                 }}
             >
                 <iframe
-                    src="http://localhost:3000/?autoOpen=true&hideControl=true"
+                    src={chatSrc}
                     style={{
                         width: '100%',
                         height: '100%',
