@@ -48,11 +48,7 @@ export default function KoreanLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${notoSansKR.variable} font-[var(--font-noto-sans-kr)] antialiased bg-white`}
       >
-        <Navbar />
         {children}
-        <LiveChatFAB />
-        <Footer />
-        <SpeedInsights />
       </body>
     </html>
   );
