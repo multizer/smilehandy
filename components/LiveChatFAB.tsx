@@ -31,7 +31,7 @@ export default function LiveChatFAB() {
                 }}
             >
                 <iframe
-                    src="https://smilechatbot-delta.vercel.app/embed?autoOpen=true&hideControl=true"
+                    src="http://localhost:3000/?autoOpen=true&hideControl=true"
                     style={{
                         width: '100%',
                         height: '100%',
