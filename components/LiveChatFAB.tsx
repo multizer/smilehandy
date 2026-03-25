@@ -26,8 +26,8 @@ export default function LiveChatFAB() {
                 style={{
                     position: 'fixed',
                     bottom: '70px',
-                    right: '4px',
-                    width: '420px',
+                    right: '8px',
+                    width: 'min(420px, calc(100vw - 16px))',
                     height: '640px',
                     zIndex: 9999,
                     overflow: 'hidden',
