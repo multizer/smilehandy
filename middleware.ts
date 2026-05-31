@@ -17,11 +17,11 @@ export function middleware(request: NextRequest) {
   return new NextResponse(
     `
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>임시 점검 중 - 스마일핸디맨 (Smile Handyman)</title>
+  <title>Temporary Maintenance - Smile Handyman</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
@@ -213,16 +213,16 @@ export function middleware(request: NextRequest) {
         <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
       </svg>
     </div>
-    <h1>더 나은 서비스를 위해<br>임시 단장 중입니다</h1>
+    <h1>Undergoing Maintenance<br>to Serve You Better</h1>
     <p>
-      스마일핸디맨을 찾아주셔서 대단히 감사합니다.<br>
-      현재 서비스 품질 향상 및 시스템 점검을 위해 웹사이트 운영을 일시적으로 중단하고 있습니다.<br>
-      더 나은 서비스로 빠르게 보답하겠습니다.
+      Thank you very much for visiting Smile Handyman.<br>
+      Our website is temporarily down for service enhancements and system maintenance.<br>
+      We will be back shortly with a much improved experience.
     </p>
     <div class="divider"></div>
     <div class="info-footer">
-      <span>문의 사항이 있으신가요? </span>
-      <a href="mailto:contact@smilehandyman.co.kr">이메일 문의하기</a>
+      <span>Have any questions? </span>
+      <a href="mailto:contact@smilehandyman.co.kr">Contact us via Email</a>
     </div>
   </div>
 </body>
