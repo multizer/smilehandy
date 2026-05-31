@@ -220,10 +220,7 @@ export function middleware(request: NextRequest) {
       We will be back shortly with a much improved experience.
     </p>
     <div class="divider"></div>
-    <div class="info-footer">
-      <span>Have any questions? </span>
-      <a href="mailto:contact@smilehandyman.co.kr">Contact us via Email</a>
-    </div>
+    
   </div>
 </body>
 </html>
